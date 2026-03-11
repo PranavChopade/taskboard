@@ -1,5 +1,5 @@
-import { ENV } from "../config/env";
-import { TokenBlackList } from "../models/TokenBlackList.model";
+import { ENV } from "../config/env.js";
+import { TokenBlackList } from "../models/TokenBlackList.model.js";
 import jwt from "jsonwebtoken";
 
 export const AuthMiddleware = async (req, res, next) => {
